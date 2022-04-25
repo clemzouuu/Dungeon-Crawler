@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rpg test</title>
+    <link rel="stylesheet" href="styletest.css">
+</head>
+<body>
+    <!-- Texte s'affichant quand jeu terminé -->
+    <div id="text_2">La princesse est sauvée ! Bravo </div>
+
+    <!-- Zone de projection du jeu -->
+    <canvas id="canvas"></canvas>
+
+     <!-- Zone de texte de dialogue avec PNJ -->
+    <div id="text">Bonjour Suidoken ! La princesse Jahna a été enlevée. Je te confie la mission de la retrouver. 
+        Essaie de retrouver une carte qui t'indiquera le chemin à prendre avec ton bateau. Mais avant d'aller la sauver, tu dois achever les deux monstres présents. Une fois les monstres tués, tu pourras trouver ton bateau et aller à sa recherche. 
+
+    </div>
+
+    <div id="rules">&nbsp &nbsp &nbsp Z <br>Q &nbsp S &nbsp D &nbsp : Déplacement 
+        &nbsp &nbsp B &nbsp  : Attaque
+        &nbsp &nbsp R &nbsp  : Ramasser Objet
+        &nbsp &nbsp E &nbsp  : Utiliser Bâteau
+        <br><br>
+
+     <!-- SVG pour musique -->
+        <img src="svg/sound.on.svg" alt="logo sound on" id="music" height ="30">
+        <img src="svg/sound_off.svg" alt="logo sound off" id ="music_off" height="30">
+
+    </div>
+    
+   
+
+    <script src="data/collisions.js"></script>
+    <script src="classes.js"></script>
+    <script src="music.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
