@@ -1,6 +1,8 @@
 # Dungeon-Crawler
 Dungeon Crawler V1 
-Jeu en JavaScript V1, à améliorer.
+Game made with JS.
+The goal is to kill the monsters and to save the princess.
+The game is yet to improve.
 
 
 
